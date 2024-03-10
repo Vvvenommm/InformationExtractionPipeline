@@ -1,0 +1,565 @@
+ECSS-Q-ST-10C Rev.1
+15 March 2016
+
+2
+Normative references
+
+The following normative documents contain provisions which, through
+reference in this text, constitute provisions of this ECSS Standard. For dated
+references, subsequent amendments to, or revision of any of these publications
+do not apply, However, parties to agreements based on this ECSS Standard are
+encouraged to investigate the possibility of applying the more recent editions of
+the normative documents indicated below. For undated references, the latest
+edition of the publication referred to applies.
+
+ECSS-S-ST-00-01 ECSS system — Glossary of terms
+ECSS-Q-ST-10-04 Space product assurance — Critical-item control
+
+ECSS-Q-ST-10-09 Space product assurance — Nonconformance control
+system
+
+ECSS-Q-ST-10C Rev.1
+15 March 2016
+
+3
+Terms, definitions and abbreviated terms
+
+3.1 Terms and definitions from other standards
+
+For the purpose of this Standard, the terms and definitions from ECSS-ST-00-01
+apply, in particular for the following terms:
+
+acceptance
+
+alert
+
+approval
+assembly
+
+audit
+
+component
+configuration item
+conformance
+critical item
+customer
+dependability
+failure
+
+function
+nonconformance
+performance
+planetary protection
+procedure
+
+process
+
+product
+
+product assurance
+project
+qualification
+quality assurance
+
+review
+
+ECSS-Q-ST-10C Rev.1
+15 March 2016
+
+risk
+
+safety
+
+space mission
+supplier
+system
+traceability
+
+waiver
+
+3.2 Abbreviated terms
+
+For the purpose of this Standard, the abbreviated terms from ECSS-S-ST-00-01
+
+and the following apply:
+Abbreviation Meaning
+EEE electrical, electronic, electromechanical
+MIP mandatory inspection point
+PA product assurance
+QA quality assurance
+QSL qualification status list
+
+ECSS-Q-ST-10C Rev.1
+15 March 2016
+
+4
+Principles
+
+4.1 General principles
+
+The prime objective of Product Assurance is to ensure that space products
+accomplish their defined mission objectives in a safe, available and reliable
+way.
+
+Commitment to quality of the entire organization is key to the Quality of the
+product and success of the space mission. The management of Product
+Assurance is fully embedded in the management of the project and receives the
+highest priority from the organization management.
+
+The early identification of aspects potentially detrimental for safety and mission
+success, and the cost-effective prevention of any adverse consequence of such
+aspects are the basic principles for the ECSS Product Assurance requirements.
+
+Product Assurance Management ensures the integration of activities from the
+Product Assurance disciplines defined in the other ECSS standards of the Q
+branch, namely:
+
+° Q-20 Quality assurance
+
+° Q-30 Dependability
+
+° Q-40 Safety
+
+° Q-60 Electrical, electronic, electromechanical (EEE) components
+° Q-70 Materials, mechanical parts and processes
+
+° Q-80 Software product assurance
+
+4.2 PAprogramme planning
+
+The requirements for Product Assurance planning specified in clause 5.1
+address the following aspects:
+
+° Definition of a Product Assurance organization with the allocation of
+adequate resources, personnel and facilities
+
+° Definition of Product Assurance requirements for lower tier suppliers
+
+° Definition of a Product Assurance Plan describing the Product Assurance
+programme and how it fulfils project objectives and requirements
+
+10
+ECSS-Q-ST-10C Rev.1
+15 March 2016
+
+4.3 PAprogramme implementation
+
+The requirements for Product Assurance programme implementation specified
+in clause 5.2 address the following aspects:
+
+° Management and control of the PA tasks performed by the PA
+
+disciplines
+° Progress reporting of all Product Assurance matters
+° Management of audits, critical items, nonconformances and alerts,
+° Support to the risk management, in coordination with the Project
+
+Management functions
+
+° Support to the documentation and data control , quality records and to
+configuration management.
+
+° Lower-tier supplier control for ensuring implementation of PA
+requirements by the suppliers
+
+11
+ECSS-Q-ST-10C Rev.1
+15 March 2016
+
+5
+Requirements
+
+5.1. PA programme planning
+
+5.1.1 Product Assurance organization and
+
+responsibilities
+
+5.1.1.1. Organization
+
+a.
+
+The supplier shall identify the personnel responsible for implementing
+and performing PA management and other PA disciplines.
+
+The supplier shall assign a project PA manager reporting to the project
+manager and having unimpeded access to higher management.
+
+The appointed project PA manager, irrespective of other responsibilities,
+shall have organizational authority to establish and implement a product
+assurance programme in accordance with the project product assurance
+requirements.
+
+The project PA Manager shall act as the focal point of contact within the
+project concerning Product Assurance matters.
+
+NOTE The project PA manager is referred to as “PA
+manager” in the rest of this document.
+
+5.1.1.2 Responsibility and authority
+
+a.
+
+The supplier shall define and document the responsibility, the authority
+and the interrelation of personnel who manage, perform and verify work
+affecting product assurance.
+
+The supplier shall define and document the responsibilities and the
+interfaces of the PA functions, either external or internal, involved in a
+project.
+
+When the supplier's PA organization delegates product assurance tasks
+to another organization it shall be done in a documented and controlled
+way monitored by the PA organization.
+
+NOTE The supplier PA organization retains the
+responsibility towards the Customer
+
+12
+ECSS-Q-ST-10C Rev.1
+15 March 2016
+
+5.1.1.3 Resources
+
+a.
+
+The supplier shall identify the PA resources needed to implement the PA
+programme.
+
+The supplier shall provide resources capable to perform the PA tasks
+identified in the PA programme.
+
+Reviews and audits of the product assurance programme, of processes or
+of product shall be carried out by personnel not directly involved in the
+work being performed.
+
+5.1.2 PA management interfaces
+
+a.
+
+The PA manager shall interface with project management, ensuring that
+the contractual provision and schedule planning for the definition and
+phasing of PA activities are met.
+
+The PA manager shall interface with risk management, configuration
+management, engineering, procurement and AIV for the definition and
+execution of tasks in which PA activities are involved.
+
+The PA manager shall interface with the customer regarding all Product
+Assurance matters.
+
+The PA manager shall interface with lower-tier suppliers regarding all
+Product Assurance matters.
+
+5.1.3 PA plan
+
+a.
+
+The supplier shall prepare, maintain and implement a plan of the PA
+activities in accordance with the customer PA requirements.
+
+The Product Assurance plan shall be prepared in conformance with DRD
+in Annex A.
+
+The Product Assurance plan shall be submitted to the customer for
+approval.
+
+NOTE1 The Product Assurance plan can refer to
+Clauses of the Company Quality Manual and to
+in-house procedures.
+
+NOTE 2 Information on the schedule for delivery of PA
+management documents is given in Annex D.
+
+5.2 PA programme implementation
+
+5.2.1 Product assurance management
+
+a.
+
+The PA manager shall ensure that PA disciplines are organized at the
+beginning of the project according to customer contractual requirements.
+
+13
+ECSS-Q-ST-10C Rev.1
+15 March 2016
+
+The PA manager shall ensure that the inputs used by the PA disciplines
+are consistent and complete, and available in line with the project
+schedule.
+
+The PA manager shall ensure that the PA disciplines perform the tasks
+described in the PA Plan in line with the project schedule.
+
+The PA manager shall ensure that the outputs produced by the PA
+disciplines are consistent and complete, and delivered in line with the
+project schedule.
+
+The PA manager shall ensure the application of processes defined in
+applicable project plans and documents.
+
+The PA manager shall control the quality of his supplier’s products by:
+
+1. issuing product assurance requirements applicable to the supplier
+2. ensuring the implementation of the PA requirements by the
+supplier.
+
+The PA manager shall ensure that PA contributions to verification are
+defined and provided.
+
+The PA manager shall ensure that a qualification programme is defined,
+approved and maintained by the relevant organization.
+
+NOTE Requirement for the qualification programme
+are addressed in ECSS-Q-ST-20, ECSS-Q-ST-60,
+ECSS-Q-ST-70, ECSS-Q-ST-80, ECSS-E-ST-10-02
+and ECSS-E-ST-10-03.
+
+The PA manager shall ensure that the qualification programme is
+implemented and the qualification results are recorded, evaluated and
+documented.
+
+The PA manager shall ensure that a Qualification Status List of the
+programme items is maintained in conformance with Annex B.
+
+The PA manager shall review and approve the achieved qualification
+status.
+
+The PA manager shall approve the product acceptance during the
+Acceptance or Delivery Review.
+
+NOTE The PA manager approval is based on the
+outputs of the Acceptance or Delivery Review.
+
+For Launch Segment perimeter, the PA manager shall ensure that
+Qualification Certificates, identifying the qualified configuration, are
+issued for all ground and flight programme items in accordance with
+DRD in Annex C.
+
+For Launch Segment perimeter, the PA manager shall sign and approve
+the certificates specified in req. 5.2.1m. before final programme manager
+acceptance.
+
+The PA manager shall ensure that a Technology Plan is defined,
+approved and maintained by the relevant organization.
+
+14
+ECSS-Q-ST-10C Rev.1
+15 March 2016
+
+NOTE The technology plan (TP) supports evaluation
+of a critical technology to meet the intended
+requirements, and ensure effective preparation
+of the technologies necessary for the relevant
+product. Technology Plan contents are defined
+in ECSS-E-ST-10 Annex E.
+
+The PA manager shall ensure that a Technology Readiness Status List
+(TRSL) is defined, approved and maintained by the relevant
+organization.
+
+NOTE The contents of Technology Readiness Status
+List are defined in ECSS-E-ST-10 Annex
+E.2.1<5>.
+
+5.2.2 PA reporting
+
+a.
+
+The supplier shall report on the status and progress of the product
+assurance program implementation.
+
+The PA report shall include at least the following items for the reporting
+period:
+
+— Progress and accomplishment of each major product assurance
+task including resolved and new problems, future planning of
+major activities and events
+
+— Status of PA reviews, Audits and MIPs, Waiver requests, Non
+conformances (minor and major), Critical items (including
+mitigation action plan status), Qualification status, EEE component
+status, Material and processes status, Alerts status.
+
+The PA progress report may be part of the project progress report.
+
+NOTE The general contents of the project progress
+report are detailed in ECSS-M-ST-10 Annex E.
+
+5.2.3 Project PA audits
+
+a.
+
+The supplier shall perform audits on his own performance to verify the
+implementation and effectiveness of the provisions defined in the PA
+plan.
+
+NOTE1 Audits can be performed by sampling on
+various projects or by periodic audits of the
+supplier quality system.
+
+NOTE2 The general contents of project audits are
+detailed in ECSS-M-ST-10 clause 5.2.3.
+
+The supplier shall establish and maintain an audit plan for procurement
+activities on the project, designating the lower tier suppliers to be
+audited, the current status and the schedule for auditing.
+
+In addition to the planned audits, extra audits shall be performed when
+necessary to overcome failure, consistent poor quality, or other problems.
+
+15
+ECSS-Q-ST-10C Rev.1
+15 March 2016
+
+The supplier shall plan and perform audits using established and
+maintained procedures.
+
+5.2.4 Critical items control and PA interfaces to
+
+project risk management
+
+The supplier shall establish a critical items control programme in
+conformance with ECSS-Q-ST-10-04.
+
+The PA manager shall identify and evaluate critical items in support of
+the overall project risk management activities.
+
+The PA manager shall ensure that a critical item control programme is
+implemented to eliminate or mitigate associated risks.
+
+5.2.5 Documentation and data control
+
+a.
+
+The PA manager shall ensure that the applicable issues of all documents
+and data are available at all locations where activities required for the
+implementation of the PA programme are performed.
+
+The PA manager shall ensure that invalid or obsolete documents and
+data are removed from all points of issue or use, or assured against
+unintended use.
+
+The PA manager shall ensure that obsolete documents and data retained
+for legal or knowledge preservation purposes are identified as such.
+
+The PA manager shall identify the project documents requiring approval
+including those requiring approval by PA.
+
+5.2.6 Quality records
+
+a.
+
+The supplier shall establish and maintain quality records to provide
+objective evidence of complete and successful performance of all PA
+discipline tasks and to demonstrate compliance with requirements.
+
+NOTE Requirements for the storage, retrieval and
+archiving of quality records are addressed in
+ECSS-M-ST-40.
+
+5.2.7 | PAcontribution to configuration
+
+management
+
+The PA manager shall verify during Configuration Control Boards the
+suitability for release of drawings, plans, specifications, procedures and
+changes thereto.
+
+NOTE The operation of Configuration Control Boards
+is detailed in ECSS-M-ST-40
+
+The PA manager shall ensure that:
+
+16
+ECSS-Q-ST-10C Rev.1
+
+15 March 2016
+
+1. the as designed status is defined and released prior to
+manufacturing;
+
+2. the as-built documentation is properly defined, identified and
+
+maintained in order to reflect approved modifications; and
+
+3. items delivered comply with the as-built documentation.
+
+5.2.8 Nonconformance control
+
+a. The supplier shall establish and maintain a nonconformance control
+system in conformance with ECSS-Q-ST-10-09.
+
+5.2.9 Management of alerts
+
+a. The supplier shall notify its customer of preliminary information on
+failures or problems that can result in an alert.
+
+NOTE1_ The above is applicable to failure or problems
+detected by the supplier or by one of his lower
+tier suppliers.
+
+NOTE2 The above is only applicable to failures or
+problems meeting all of the following criteria:
+
+e The item with the observed failure or
+problem has multiple applications, which
+can have implications for more than one
+project, thus requiring prompt action.
+
+e The failure or problem has occurred in the
+application of an item within the specified
+design and usage limitations.
+
+e Failures or problems due to usage within
+reasonably expected limits of performance,
+but where these limits were not specified
+precisely.
+
+e A preliminary investigation has provided
+evidence of the root cause of the failure or
+problem.
+
+e Failure or problems are confirmed not to be
+of a random nature.
+
+b. The supplier shall investigate in cooperation with the originator of the
+
+failure or problem to define the immediate measures to be taken, to
+identify the causes, and to recommend corrective actions for similar
+items.
+
+c. The PA manager shall ensure:
+
+1. the assessment of any failure having the potential to lead to an
+alert by the customer,
+
+2. the investigation, until disposition of the items subject of the
+potential alert, and
+
+17
+ECSS-Q-ST-10C Rev.1
+15 March 2016
+
+the assessment of incoming alerts for the definition,
+implementation and follow-up of necessary actions.
+
+d. The supplier shall participate in the alert system organized by the
+customer or other sources, by:
+
+1.
+
+assessment of the impact of incoming alerts to project work, and
+definition, implementation and follow-up of necessary corrective
+actions at any contractual level.
+
+distribution of incoming alerts to the possible affected users within
+the project.
+
+NOTE The alert system is set up for the prompt
+interchange of information on failures or
+problems which can affect more than one user,
+or can recur in other projects or circumstances,
+if no preventive actions are taken.
+
+18
